@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(16, 15, 15);
+    
+    
+}
+#header{
+    background-image: url(photo.png);
+    background-image: 50%;
+    image-orientation: right;
+    background-position:center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+}
+.container{
+    padding: 10px 10%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    color: ivory;
+    cursor: none;
+    text-decoration: none;
+    width: 140px;
+    font-size: 30px;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 10px;
+}
+nav ul li a{
+    color: ivory;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    color: darkorange;
+}
+.header-text{
+    margin-top: 20px;
+    font-size: 30px;
+    color: ivory;
+}
+.header-text h1{
+    
+    margin-top: 20px;
+}
+.header-text h1 span{
+    font-size: 30px;
+    color: darkorange;
+}
+
+
+
+
+#About{
+    margin: 20px;
+    padding: 20px;
+}
+.container h1{
+    color: darkorange;
+    margin: 20px;
+    font-size: 30px;   
+}
+.container p{
+    color: ivory;
+    font-size: 20px;
+    margin: 10px;
+}
+.container h3{
+    color: darkorange;
+}
+
+button{
+    color: darkorange;
+    margin-left: 20px;
+    text-align: center;
+    width: 20%;
+    height: 20%;
+    padding: 15px;
+    font-size: 25px;   
+}
+button:hover{
+    color: darkblue ;
+}
+
+
+#Internship{
+    margin: 20px;
+    padding: 20px;
+}
+.container h1{
+    color: darkorange;  
+    margin: 20px;
+    font-size: 30px;
+}
+.container h3{
+    color: ivory;
+    margin: 10px;
+    font-size: 20px;
+}
+.container span{
+    color: darkcyan;
+}
+ul li{
+    color: ivory;
+    font-size: 15px;
+    margin: 10px;
+}
+
+
+#Skills{
+    margin: 20px;
+    padding: 20px;
+}
+.container{
+    color: ivory;
+    margin: 20px;
+    font-size: 10px;
+}
+.container h1{
+    color: darkorange;  
+    margin: 20px;
+    
+}
+img{
+    width: 30px;
+    height: 30px;
+}
+.container span{
+    color: red;
+    font-size: 20px;
+}
+ul li{
+    font-size: 20px;
+}
+
+.projects h2{
+    margin: 20px;
+    color: black;
+}
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    
+}
+
+.project {
+    background-color: burlywood;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;  
+    
+}
+.project h3{
+    color: black;
+}
+
+.project:hover{
+    width: 100%;
+    height: 100%;
+}
+
+.project img{
+    margin: 10px;
+    padding: 10px;
+    width: 60%;
+    height: 60%;
+    border-image: 8px;
+}
+.project img:hover{
+    width: 85%;
+    height: 70%;
+}
+.container h2{
+    font-size: 20px;
+}
+
+#Contact{
+    margin: 20px;
+    padding: 20px;
+    
+}
+a{
+    text-decoration: none;
+    color: ivory;
+}
+
+
